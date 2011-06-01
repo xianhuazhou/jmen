@@ -1,0 +1,14 @@
+== Introduction
+
+jmen is a tool can merge javascript files into one file whenever one of those files is updated. 
+To make it works, you need to install nodejs first.
+
+== Usage
+
+$ node jmen.js --file /path/to/app/index.js --output /path/to/website/assets/javascripts/app.js
+
+file: /path/to/app/index.js
+  //= require "app/a.js"
+  //= require "app/b.js"
+
+It's similar to the Ruby's sprockets (http://www.getsprockets.org) gem.
