@@ -1,1 +1,1 @@
-var image = "good"
+alert('image.js is ');
