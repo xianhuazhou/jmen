@@ -5,10 +5,10 @@ To make it works, you need to install nodejs first.
 
 == Usage
 
-$ node jmen.js --file /path/to/app/index.js --output /path/to/website/assets/javascripts/app.js
+  $ node jmen.js --file /path/to/app/index.js --output /path/to/website/assets/javascripts/app.js
 
-file: /path/to/app/index.js
-  //= require "app/a.js"
-  //= require "app/b.js"
+file: /path/to/dev/index.js
+  //= require "dev/a.js"
+  //= require "dev/b.js"
 
 It's similar to the Ruby's sprockets (http://www.getsprockets.org) gem.
