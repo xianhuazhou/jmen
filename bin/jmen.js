@@ -12,7 +12,7 @@ var fs = require('fs'),
   path = require('path'),
   os = require('os'),
   spawn = require('child_process').spawn,
-  JMEN_VERSION = '0.1-dev';
+  JMEN_VERSION = '0.1.0';
 
 (function(){
   var files = [];

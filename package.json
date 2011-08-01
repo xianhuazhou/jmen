@@ -1,6 +1,6 @@
 { 
 "name": "jmen", 
-"version": "0.1" ,
+"version": "0.1.0" ,
 "description": "watch javascript files, merge them into one file whenever one of those files is updated.", 
 "main": "jmen.js", 
 "license": {"type" : "GPL"}, 
