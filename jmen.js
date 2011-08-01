@@ -14,7 +14,7 @@ var fs = require('fs'),
   spawn = require('child_process').spawn,
   JMEN_VERSION = '0.1-dev';
 
-(function(params){
+(function(){
   var files = [];
 
   function puts(msg) {
