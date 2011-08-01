@@ -11,7 +11,7 @@ To make it works, you need to install nodejs(http://www.nodejs.org/) first.
 
   $ jmen --file /path/to/app/dev/index.js --output /path/to/website/assets/javascripts/app.js
 
-file: /path/to/dev/index.js
+file: /path/to/app/dev/index.js
   //= require "dev/a.js"
   //= require "dev/b.js"
 
