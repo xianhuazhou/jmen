@@ -56,8 +56,12 @@ Then, you can do it with jmen:
 
     $ jmen --help
 
-== Latest Version
+## Latest Version
 
 0.2.0
+
+## TODO
+
+Test
 
 It's similar to the Ruby's sprockets (http://www.getsprockets.org) gem.
