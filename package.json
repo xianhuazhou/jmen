@@ -3,7 +3,7 @@
     "version": "0.1.0" ,
     "description": "watch javascript files, merge them into one file whenever one of those files is updated.", 
     "main": "jmen.js", 
-    "license": {"type" : "GPL"}, 
+    "license": {"type" : "MIT"}, 
     "repository": "git://github.com/xianhuazhou/jmen.git", 
         "dependencies": {
         "coffee-script": ">= 1.3.3",
