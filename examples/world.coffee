@@ -1,0 +1,2 @@
+class World
+  constructor: (@name) ->

@@ -1,0 +1,1 @@
+var User="zhou xianhua";alert("image.js is "),alert(4),function(){var e;e=function(){function e(){}return e}()}.call(this),function(){var e;e=function(){function e(e){this.name=e}return e}()}.call(this),alert(1111),alert(2222)

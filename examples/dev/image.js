@@ -1,1 +1,1 @@
-alert('image.js is ');
+console.log("dev/image.js")

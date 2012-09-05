@@ -1,1 +1,2 @@
-var User = "zhou xianhua"
+var user = "user name";
+console.log("dev/user.js")
