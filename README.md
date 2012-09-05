@@ -5,7 +5,7 @@ To make it works, you need to install nodejs(http://www.nodejs.org/) first.
 
 ## Installation
 
-    $ npm install jmen
+    $ [sudo] npm install jmen -g
 
 ## Usage
 
@@ -47,6 +47,14 @@ The files structure looks like:
       my/
         first.coffee
         second.coffee
+
+Then, you can do it with jmen:
+
+    $ jmen --file js/main.js --output result.js
+
+### help
+
+    $ jmen --help
 
 == Latest Version
 
