@@ -33,7 +33,7 @@ file: js/main.js
 
 file: my/first.coffee
 
-```coffeescript
+```coffee
     #= require "second.coffee"
     # 
     # other coffee code here
