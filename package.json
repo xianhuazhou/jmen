@@ -7,7 +7,7 @@
     "repository": "git://github.com/xianhuazhou/jmen.git", 
         "dependencies": {
         "coffee-script": ">= 1.3.3",
-        "uglify-js": ">= 1.3.3"
+        "uglify-js": ">= 2.2.3"
     },
     "author": {
         "name": "Xianhua Zhou",
