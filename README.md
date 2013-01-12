@@ -58,7 +58,7 @@ Then, you can do it with jmen:
 
 ## Latest Version
 
-0.2.0
+0.3.0
 
 ## TODO
 
