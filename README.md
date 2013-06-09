@@ -1,6 +1,6 @@
 # Introduction
 
-jmen is a tool can merge javascript files into one file whenever one of those files is updated. 
+jmen is a tool can merge javascript (including coffeescript) and css (including scss, less) files into one file whenever one of the included files is updated. 
 To make it works, you need to install nodejs(http://www.nodejs.org/) first.
 
 ## Installation
@@ -18,11 +18,11 @@ file: /path/to/app/dev/index.js
     //= require "dev/b.js"
 ```
 
-### compress generated code
+### Compress generated code
 
     $ jmen --file js/index.js --output web/compiled/main.js --compress
 
-### mixing JavaScript and CoffeeScript
+### Mixing JavaScript and CoffeeScript
 
 file: js/main.js
 ```js
@@ -52,13 +52,43 @@ Then, you can do it with jmen:
 
     $ jmen --file js/main.js --output result.js
 
+### Working with less files
+
+    $ jmen -f less/index.scss -o css/app.css
+
+file: less/index.scss
+
+```scss
+  //= header.less
+  //= bottom.less
+  // others ...
+```
+
+### Working with scss files (require Ruby's sass gem)
+
+    $ jmen -f scss/index.scss -o css/app.css [-s /path/to/scss]
+
+file: scss/index.scss
+
+```scss
+  //= header.scss
+  //= bottom.scss
+  // others ...
+```
+
+### Run once and quit
+
+If you just need to generate or compress your css/js files once, just do it with the `--run-once`(`-r`) option, e.g.:
+
+    $ jmen -f index.js -o compiled.js -c -r
+
 ### help
 
     $ jmen --help
 
 ## Latest Version
 
-0.3.0
+0.4.0
 
 ## TODO
 
