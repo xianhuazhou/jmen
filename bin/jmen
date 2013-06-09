@@ -2,7 +2,7 @@
 //
 // jmen is a tool can merge javascript files into one file whenever one of those files is updated.
 //
-// Usage: jmen --source /path/to/index.js --output /path/to/website/assets/app.js
+// Usage: jmen --file /path/to/index.js --output /path/to/website/assets/app.js
 //        jmen --help
 //
 // Author: xianhua.zhou@gmail.com
