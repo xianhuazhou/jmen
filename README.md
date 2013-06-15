@@ -76,6 +76,10 @@ file: scss/index.scss
   // others ...
 ```
 
+### Notice
+
+Included files can be added onto top only !!!
+
 ### Run once and quit
 
 If you just need to generate or compress your css/js files once, just do it with the `--run-once`(`-r`) option, e.g.:
