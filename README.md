@@ -59,8 +59,8 @@ Then, you can do it with jmen:
 file: less/index.scss
 
 ```scss
-  //= header.less
-  //= bottom.less
+  //= require "header.less"
+  //= require "bottom.less"
   // others ...
 ```
 
@@ -71,8 +71,8 @@ file: less/index.scss
 file: scss/index.scss
 
 ```scss
-  //= header.scss
-  //= bottom.scss
+  //= require "header.scss"
+  //= require "bottom.scss"
   // others ...
 ```
 
@@ -92,7 +92,7 @@ If you just need to generate or compress your css/js files once, just do it with
 
 ## Latest Version
 
-0.4.0
+0.5.0
 
 ## TODO
 
