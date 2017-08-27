@@ -64,9 +64,9 @@ file: less/index.scss
   // others ...
 ```
 
-### Working with scss files (require Ruby's sass gem)
+### Working with scss files
 
-    $ jmen -f scss/index.scss -o css/app.css [-s /path/to/scss]
+    $ jmen -f scss/index.scss -o css/app.css
 
 file: scss/index.scss
 
