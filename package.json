@@ -1,6 +1,6 @@
 {
     "name": "jmen",
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "watch javascript(coffeescript) and css(scss, less) files, merge them into one file whenever one of the watched files is updated.",
     "main": "jmen.js",
     "license": {"type" : "MIT"},
