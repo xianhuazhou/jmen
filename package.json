@@ -1,18 +1,18 @@
 {
     "name": "jmen",
-    "version": "0.6.2",
+    "version": "0.7.0",
     "description": "watch javascript(coffeescript) and css(scss, less) files, merge them into one file whenever one of the watched files is updated.",
     "main": "jmen.js",
     "license": "MIT",
     "engines": {
-      "node": ">=12"
+        "node": ">=12"
     },
     "repository": {
-      "type": "git",
-      "url": "git://github.com/xianhuazhou/jmen.git"
+        "type": "git",
+        "url": "git://github.com/xianhuazhou/jmen.git"
     },
     "dependencies": {
-        "coffee-script": "^1.12.7",
+        "coffeescript": "^2.7",
         "uglify-js": "^3.13.8",
         "clean-css": "^5.1.2",
         "node-sass": "^4.14.1",

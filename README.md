@@ -92,7 +92,7 @@ If you just need to generate or compress your css/js files once, just do it with
 
 ## Latest Version
 
-0.6.1
+0.7.0
 
 ## TODO
 
